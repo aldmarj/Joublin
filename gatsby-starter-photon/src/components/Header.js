@@ -1,10 +1,14 @@
 import React from 'react'
+import ParticleComponent from "./ParticleComponent";
 import { Link, animateScroll as scroll } from 'react-scroll'
+
 
 class Header extends React.Component {
     render() {
         return (
             <section id="header">
+                
+                <ParticleComponent/>
                 <div className="inner">
                     <span className="icon major fa-cloud"></span>
                     <h1>Hi, I'm <strong>Photon</strong>, another fine<br />
@@ -20,7 +24,9 @@ class Header extends React.Component {
                                 smooth={true}
                                 offset={-70}
                                 duration= {500}
-                            >Discover</Link>
+                            >
+                                Discover
+                            </Link>
                         </li>
                     </ul>
                 </div>
@@ -31,4 +37,3 @@ class Header extends React.Component {
 
 export default Header
 
-//<a href="#one" className="button scrolly">Discover</a>
