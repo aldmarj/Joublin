@@ -3,6 +3,7 @@ import ParticleComponent from "./ParticleComponent";
 import { Link, animateScroll as scroll } from 'react-scroll'
 
 
+
 class Header extends React.Component {
     render() {
         return (
@@ -11,15 +12,13 @@ class Header extends React.Component {
                 <ParticleComponent/>
                 <div className="inner">
                     <span className="icon major fa-cloud"></span>
-                    <h1>Hi, I'm <strong>Photon</strong>, another fine<br />
-                    little freebie from <a href="http://html5up.net">HTML5 UP</a>.</h1>
-                    <p>Accumsan feugiat mi commodo erat lorem ipsum, sed magna<br />
-                    lobortis feugiat sapien sed etiam volutpat accumsan.</p>
+                    <h2>IT Consultant | Virtualisation | vBlock | Architect | Hybrid Cloud <br/>  
+                        | VMWare SME | Cisco UCS | External Cloud AWS</h2>
                     <ul className="actions">
                         <li><Link
                                 className="button scrolly"
                                 activeClass="active"
-                                to="one"
+                                to="about"
                                 spy={true}
                                 smooth={true}
                                 offset={-70}
