@@ -10,7 +10,7 @@ import Menu from "./Menu";
 
 import Header from "./Header";
 import About from "./About";
-import Experience from "./Experience";
+import ExperienceContainer from "./ExperienceContainer";
 import Certifications from "./Certifications";
 import Contact from "./Contact";
 import Footer from "./Footer";
@@ -57,7 +57,7 @@ class Template extends React.Component {
                 </Popup>
                 <Header />
                 <About />
-                <Experience />
+                <ExperienceContainer />
                 <Certifications />
                 <Contact />
                 {children}

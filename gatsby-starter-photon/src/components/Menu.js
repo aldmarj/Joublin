@@ -19,13 +19,13 @@ const ListLink = props => (
 
 export default ({ children, close }) => (
   <div>
-    <nav id="site-menu-contents" class="site-nav">
+    <nav id="site-menu-contents">
       <ul id="mainMenu">
-        <li><ListLink to="header" close={close}>Home </ListLink></li>
-        <li><ListLink to="about"  close={close}>About</ListLink></li>
-        <li><ListLink to="experience" close={close}>Experience</ListLink></li>
-        <li><ListLink to="certificates" close={close}>Certifications</ListLink></li>
-        <li><ListLink to="contact" close={close}>Contact</ListLink></li>
+        <li className="menuButton"><ListLink  to="header" close={close}>Home </ListLink></li>
+        <li className="menuButton"><ListLink className="button" to="about"  close={close}>About</ListLink></li>
+        <li className="menuButton"><ListLink  to="experience" close={close}>Experience</ListLink></li>
+        <li className="menuButton"><ListLink to="certificates" close={close}>Certifications</ListLink></li>
+        <li className="menuButton"><ListLink to="contact" close={close}>Contact</ListLink></li>
       </ul>
     </nav>
     {children}

@@ -49,7 +49,6 @@
 
 	a {
 		@include vendor('transition', ('color #{_duration(transition)} ease-in-out', 'border-color #{_duration(transition)} ease-in-out'));
-		border-bottom: dotted 1px _palette(fg);
 		color: inherit;
 		text-decoration: none;
 
@@ -96,6 +95,7 @@
 	h3 {
 		font-size: 1.35em;
 		line-height: 1.5em;
+		padding-top: 1.5em;
 	}
 
 	h4 {
@@ -925,7 +925,7 @@
 		&.style2 {
 			@include dark(#333);
 			background-attachment:	fixed,							fixed;
-			background-image:		url('../images/overlay1.png'),		url('../images/header.jpg');
+			background-image:		url('../images/overlay1.png'),		url('../images/network.jpg');
 			background-size:		auto,							cover;
 		}
 	}
