@@ -9,7 +9,7 @@ class Contact extends React.Component {
                     <h2>Contact Me</h2>
                 </header>
                 <p>Sed lacus nascetur ac ante amet sapien.</p>
-                <form method="post" action="#">
+                <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
                     <div className="field half first">
                         <label htmlFor="name">Name</label>
                         <input type="text" name="name" id="name" />
