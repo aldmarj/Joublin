@@ -925,7 +925,7 @@
 		&.style2 {
 			@include dark(#333);
 			background-attachment:	fixed,							fixed;
-			background-image:		url('../images/overlay1.png'),		url('../images/network.jpg');
+			background-image:		url('../images/overlay1.png'),		url('../images/network.webp');
 			background-size:		auto,							cover;
 		}
 	}

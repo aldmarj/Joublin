@@ -1,6 +1,6 @@
 import React from 'react'
 
-import AboutFiller from '../assets/images/AboutFiller2.jpg'
+import AboutFiller from '../assets/images/AboutFiller2.webp'
 
 
 

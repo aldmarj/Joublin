@@ -17,10 +17,13 @@ class ExperienceTwo extends React.Component {
                         <h2>Resident Architect</h2>
                     </header>
                     <p>
-                        Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.
-                        Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.
-                        Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.
-                        Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.
+                        VCE <br/>
+                        April 2016 <br/>
+                        London, United Kingdom
+                    </p>
+                    <p>
+                        Configure | Supporting vBlock 320 and vBlock 340 for one of VCE’s clients Jaguar / Landrover. 
+                        This includes CISCO UCS Compute, VMWare and EMC VNX | vPlex storage. 
                     </p>
                     <button onClick={() => {
                        this.props.handleClick("AllExperience");
