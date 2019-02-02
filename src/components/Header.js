@@ -3,6 +3,7 @@ import ParticleComponent from "./ParticleComponent";
 import { Link, animateScroll as scroll } from 'react-scroll'
 
 
+import Logo from '../assets/images/joublinCloud.png'
 
 
 class Header extends React.Component {
@@ -12,7 +13,8 @@ class Header extends React.Component {
                 
                 <ParticleComponent/>
                 <div className="inner">
-                    <span className="icon major fa-cloud"></span>
+                    {/* <span className="icon major fa-cloud"></span> */}
+                    <span className="image"><img src={Logo} alt="" /></span>
                     <h2>IT Consultant | Virtualisation | vBlock | Architect | Hybrid Cloud <br/>  
                         | VMWare SME | Cisco UCS | External Cloud AWS</h2>
                     <ul className="actions">
