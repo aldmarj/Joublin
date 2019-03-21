@@ -1,9 +1,9 @@
 import React from 'react'
 import ParticleComponent from "./ParticleComponent";
-import { Link, animateScroll as scroll } from 'react-scroll'
+import { Link } from 'react-scroll'
 
 
-import Logo from '../assets/images/joublinCloud.png'
+import Logo from '../assets/images/logo.png'
 
 
 class Header extends React.Component {
