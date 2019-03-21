@@ -8,8 +8,9 @@ class Contact extends React.Component {
                 <header className="major">
                     <h2>Contact Me</h2>
                 </header>
-                <p>Sed lacus nascetur ac ante amet sapien.</p>
+                <p>Got a question? We'd love to hear from you. Send us a message <br/> and we'll respond as soon as possible.</p>
                 <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" style={{paddingLeft: "5em", paddingRight: "5em"}}>
+                    <input type="hidden" name="form-name" value="contact" />
                     <div className="field half first">
                         <label htmlFor="name" style={{color:"white"}}>Name</label>
                         <input type="text" name="name" id="name" />
